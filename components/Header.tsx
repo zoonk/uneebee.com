@@ -29,8 +29,8 @@ export default function Header() {
       </Link>
 
       <nav className="space-x-2">
-        <Button href="/install" variant="outline">
-          Install
+        <Button href="/waitlist" variant="outline">
+          Waitlist
         </Button>
 
         <Button href="https://app.uneebee.com" prefetch={false} color="amber">
