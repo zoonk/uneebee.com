@@ -7,7 +7,7 @@
 import { IconThumbUp, IconTrophy } from "@tabler/icons-react";
 import Image from "next/image";
 
-import courseView from "@/images/screenshots/course_view.png";
+import playImage from "@/images/screenshots/play.png";
 
 const features = [
   {
@@ -64,11 +64,11 @@ export default function PlayerFeatures() {
           </div>
 
           <Image
-            src={courseView}
+            src={playImage}
             alt="Screenshot of the course list"
             className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-            width={2432}
-            height={1442}
+            width={1024}
+            height={805}
             unoptimized
           />
         </div>
