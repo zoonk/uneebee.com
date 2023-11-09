@@ -1,5 +1,7 @@
+import PlayerFeatures from "@/components/PlayerFeatures";
 import Hero from "@/components/Hero";
 import type { Metadata } from "next";
+import EditorFeatures from "@/components/EditorFeatures";
 
 export const metadata: Metadata = {
   title: "UneeBee | Open-source interactive courses",
@@ -16,6 +18,8 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      <PlayerFeatures />
+      <EditorFeatures />
     </main>
   );
 }
