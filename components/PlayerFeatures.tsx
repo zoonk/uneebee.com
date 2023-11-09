@@ -11,16 +11,16 @@ import courseView from "@/images/screenshots/course_view.png";
 
 const features = [
   {
-    name: "Custom feedback.",
-    description:
-      "Provide instant, personalized feedback. Each lesson response can trigger tailored feedback, reinforcing concepts and guiding learners through complex ideas with ease and clarity.",
-    icon: IconThumbUp,
-  },
-  {
     name: "Gamification.",
     description:
       "Turn education into an adventure. From progress tracking to reward systems, we keep learners motivated and engaged.",
     icon: IconTrophy,
+  },
+  {
+    name: "Custom feedback.",
+    description:
+      "Provide instant, personalized feedback. Each lesson response can trigger tailored feedback, reinforcing concepts and guiding learners through complex ideas with ease and clarity.",
+    icon: IconThumbUp,
   },
 ];
 
