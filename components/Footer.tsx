@@ -34,8 +34,18 @@ export default function Footer() {
         ))}
       </div>
 
+      <ul className="text-slate-500 inline-flex gap-x-2 mt-6 sm:mt-0 text-xs">
+        <li className="hover:underline">
+          <a href="https://zoonk.org/en/privacy">Privacy</a>
+        </li>
+
+        <li className="hover:underline">
+          <a href="https://zoonk.org/en/terms">Terms</a>
+        </li>
+      </ul>
+
       <p className="flex mt-6 items-center gap-1 text-sm text-slate-500 sm:mt-0">
-        Powered by
+        Created with ❤️ by
         <a
           href="https://zoonk.org"
           className="hover:opacity-80 transition-opacity"
