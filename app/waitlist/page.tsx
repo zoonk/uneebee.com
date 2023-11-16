@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import ikidoo from "@/images/ikidoo.svg";
+import educasso from "@/images/educasso.svg";
 import wikaro from "@/images/wikaro.svg";
 import wisek from "@/images/wisek.svg";
 import Image from "next/image";
@@ -29,8 +29,8 @@ const products = [
     name: "For schools",
     description:
       "Create fun activities for students and save time with tailored lessons compliant with your curriculum. Your lesson plan will be much easier now.",
-    href: "https://ikidoo.com",
-    img: ikidoo,
+    href: "https://educasso.com",
+    img: educasso,
   },
   {
     name: "For creators",
