@@ -26,7 +26,7 @@ const features = [
 
 export default function PlayerFeatures() {
   return (
-    <div className="overflow-hidden mx-auto grid  grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 max-w-7xl px-6 lg:px-8 bg-slate-50 rounded-lg py-24 sm:py-32">
+    <div className="overflow-hidden mx-auto grid  grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 max-w-7xl px-6 lg:px-8 bg-slate-50 rounded-lg py-8 lg:py-32">
       <div className="lg:pr-8 lg:max-w-lg">
         <h2 className="text-base font-semibold leading-7 text-indigo-600">
           Better learning
@@ -62,7 +62,7 @@ export default function PlayerFeatures() {
       <Image
         src={playImage}
         alt="Screenshot of the course list"
-        className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+        className="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
         width={1024}
         height={805}
         unoptimized
