@@ -84,7 +84,7 @@ export default function WaitlistPage() {
               <p className="mt-1 text-gray-600">{item.description}</p>
 
               <Button href={item.href} color="blue" className="mt-4">
-                Join the wailist
+                Join the waitlist
               </Button>
             </div>
           </div>
