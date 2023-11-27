@@ -76,7 +76,7 @@ export default async function HomeSponsors() {
           </span>
 
           <a
-            href="https://zoonk.org/en/sponsors"
+            href="https://github.com/zoonk/uneebee#sponsors"
             className="font-semibold text-indigo-600"
           >
             <span className="absolute inset-0" aria-hidden="true" /> See all
